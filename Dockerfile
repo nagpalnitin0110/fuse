@@ -18,7 +18,7 @@ ENV FUSE_PUBLIC_AMQP_SSL_PORT 5671
 ENV FUSE_PUBLIC_STOMP_SSL_PORT 61614
 
 # Install fuse in the image.
-COPY install.sh /opt/jboss/installnew.sh
+COPY installnew.sh /opt/jboss/installnew.sh
 #RUN chmod 777 install.sh
 RUN /opt/jboss/installnew.sh
 
